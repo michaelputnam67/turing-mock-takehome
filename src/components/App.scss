@@ -1,0 +1,60 @@
+* {
+  border: dashed 2px pink;
+}
+
+.nav {
+  height: 5vh;
+  width: 100vw;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  h1,
+  select {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  h1 {
+    justify-self: start;
+    align-self: center;
+  }
+
+  select {
+    justify-self: end;
+    align-self: center;
+  }
+
+  .stories-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+
+    .story {
+      display: grid;
+      height: 20vh;
+
+			.section {
+				margin-top: -3vh;
+				align-self: start;
+				justify-self: start;
+			}
+
+      .button-date-container {
+        display: flex;
+        justify-content: space-between;
+				
+				.date {
+					align-self: flex-end;
+					margin: 0;
+				}
+
+        button {
+          width: 20vw;
+        }
+      }
+    }
+  }
+}
