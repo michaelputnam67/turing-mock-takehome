@@ -1,24 +1,21 @@
-import React, {useEffect, useState} from 'react'
-import {getTopStories} from '../apiCalls'
-import StoriesContainer from './StoriesContainer'
+import React, { useEffect, useState } from "react";
+import { getTopStories } from "../apiCalls";
+import StoriesContainer from "./StoriesContainer";
 
- const Home = () => {
-	const [stories, setStories] = useState([])
-	const [typeFilter, setTypeFilter] = useState('')
+const Home = ({ stories, handleSort }) => {
+  const [typeFilter, setTypeFilter] = useState("");
 
-	useEffect(() => {
-		getTopStories('home').then(data => setStories(data.results))
-	}, [])
+  return (
+    <div className="home">
+      <h1>Stories Titles</h1>
+      <select value={typeFilter} onChange={(e) => handleSort(e.target.value)}>
+        <option value="">Sort By Date</option>
+				<option value="earliest">Earliest</option>
+				<option value="latest">Latest</option>
+      </select>
+      <StoriesContainer stories={stories} />
+    </div>
+  );
+};
 
-	return (
-		<div className='home'>
-			<h1>Stories Titles</h1>
-			<select>
-
-			</select>
-			<StoriesContainer stories={stories} />
-		</div>
-	)
-}
-
-export default Home
+export default Home;

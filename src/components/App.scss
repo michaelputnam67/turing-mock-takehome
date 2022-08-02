@@ -3,6 +3,8 @@
 }
 
 .nav {
+  display: flex;
+  justify-content: space-between;
   height: 5vh;
   width: 100vw;
 }
@@ -36,20 +38,20 @@
       display: grid;
       height: 20vh;
 
-			.section {
-				margin-top: -3vh;
-				align-self: start;
-				justify-self: start;
-			}
+      .section {
+        margin-top: -3vh;
+        align-self: start;
+        justify-self: start;
+      }
 
       .button-date-container {
         display: flex;
         justify-content: space-between;
-				
-				.date {
-					align-self: flex-end;
-					margin: 0;
-				}
+
+        .date {
+          align-self: flex-end;
+          margin: 0;
+        }
 
         button {
           width: 20vw;
