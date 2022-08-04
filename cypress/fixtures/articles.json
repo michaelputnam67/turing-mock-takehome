@@ -1,0 +1,97 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2022-08-03T12:03:34-04:00",
+  "num_results": 35,
+  "results": [
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Here’s how abortion rights supporters won in conservative Kansas.",
+      "abstract": "Turnout was high for a referendum that drew national attention.",
+      "url": "https://www.nytimes.com/2022/08/02/us/politics/abortion-kansas-vote-result-no.html",
+      "uri": "nyt://article/4f1e48a6-7f63-591b-99a3-f646b21f2aaf",
+      "byline": "By Maggie Astor and Nate Cohn",
+      "item_type": "Article",
+      "updated_date": "2022-08-03T11:27:49-04:00",
+      "created_date": "2022-08-03T01:02:33-04:00",
+      "published_date": "2022-08-03T01:02:33-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Midterm Elections (2022)",
+        "Abortion",
+        "Elections",
+        "Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Kansas"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/08/02/us/politics/02primary-live-kansas-abortion-keypoints-3/merlin_210977313_7d6e044e-3b88-45e6-9a2d-3aa9a0e61909-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Supporters of abortion rights celebrating on election night in Overland Park, Kan.",
+          "copyright": "Arin Yoon for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/08/02/us/politics/02primary-live-kansas-abortion-keypoints-3/merlin_210977313_7d6e044e-3b88-45e6-9a2d-3aa9a0e61909-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Supporters of abortion rights celebrating on election night in Overland Park, Kan.",
+          "copyright": "Arin Yoon for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/08/02/us/politics/02primary-live-kansas-abortion-keypoints-3/02primary-live-kansas-abortion-keypoints-3-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Supporters of abortion rights celebrating on election night in Overland Park, Kan.",
+          "copyright": "Arin Yoon for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3zSTraB"
+    },
+    {
+      "section": "us",
+      "title": "Tracking the States Where Abortion Is Now Banned",
+      "abstract": "The New York Times is tracking the status of abortion laws in each state following the Supreme Court’s decision to overturn Roe v. Wade.",
+      "url": "https://www.nytimes.com/interactive/2022/us/abortion-laws-roe-v-wade.html",
+      "uri": "nyt://interactive/4af79dc8-c5cd-5843-b733-1068cc5681e1",
+      "byline": "By The New York Times",
+      "updated_date": "2022-08-03T11:24:20-04:00",
+      "created_date": "2022-05-24T18:04:25-04:00",
+      "published_date": "2022-05-24T18:04:25-04:00",
+      "des_facet": [
+        "States (US)",
+        "Law and Legislation",
+        "Abortion",
+        "Roe v Wade (Supreme Court Decision)"
+      ],
+      "geo_facet": ["United States"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/05/24/us/abortion-laws-roe-v-wade-promo-1653427828806/abortion-laws-roe-v-wade-promo-1653427828806-superJumbo-v27.png",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3sYKAjR"
+    }
+  ]
+}

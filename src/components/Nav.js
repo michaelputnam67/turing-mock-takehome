@@ -7,7 +7,6 @@ const Nav = () => {
       <Link to="/">
         <h1>Times Top Stories</h1>
       </Link>
-      <select></select>
     </nav>
   );
 };
